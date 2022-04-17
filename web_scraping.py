@@ -35,3 +35,11 @@ turn_on_notificacion_not_not_button = driver.find_element_by_xpath("//button[con
 time.sleep(10)
 
 # Search person 
+input_search = driver.find_element_by_css_selector("input[type=text]")
+input_search.clear()
+input_search.send_keys("Chelsea F.C.")
+time.sleep(5)
+# Double enter to confirm
+input_search.send_keys(Keys.ENTER)
+input_search.send_keys(Keys.ENTER)
+time.sleep(1000)

@@ -1,6 +1,6 @@
 
 def getUsername()->str:
-    return 'scrapingweb08@gmail.com'
+    return '@gmail.com'
 
 def getPassword()->str:
-    return 'Chelsea123!'
+    return ''
