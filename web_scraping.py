@@ -8,7 +8,7 @@ import requests
 from credentials import getPassword, getUsername
 
 #Chrome Web Driver
-PATH = "/home/sebastiancb/Downloads/chromedriver"
+PATH = "chromedriver/chromedriver"
 driver = webdriver.Chrome(PATH)
 
 # Open Instagram URL
